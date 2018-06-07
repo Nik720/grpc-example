@@ -1,0 +1,13 @@
+{
+  "name": "Sample Books stall",
+  "description": "Sample books stall",
+  "require": {
+    "grpc/grpc": "^v1.3.0",
+    "google/protobuf": "^v3.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "Books/"
+    }
+  }
+}
